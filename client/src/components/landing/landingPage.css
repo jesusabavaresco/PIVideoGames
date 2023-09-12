@@ -1,0 +1,45 @@
+.box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://cdn.wallpapersafari.com/83/73/Bs5hqD.jpg');
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    overflow-y: hidden;
+
+}
+.center-box {
+    position: relative;
+    top: -30px
+}   
+
+.title-landing2 {
+    font-size: 11rem;
+    -webkit-text-stroke: 2px black;
+    opacity: 0.7;
+    position: relative;
+    color: #E25E3E;
+}
+.title-landing {
+    font-size: 11.3rem;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+}
+
+.btn-landing {
+    border: none;
+    margin-top: 2rem;
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: black;
+    opacity: 0.4;
+    width: 180px;
+    transition: 0.3s ease-in-out;
+}
+.btn-landing:hover {
+    border: 1px solid #E25E3E;
+    opacity: 2;
+    cursor: pointer;
+}   
